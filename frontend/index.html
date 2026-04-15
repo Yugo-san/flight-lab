@@ -1,0 +1,11 @@
+<!DOCTYPE html><html lang="ru"><head><meta charset="UTF-8"><title>AI Flight Picker</title>
+<style>body{font-family:sans-serif;padding:30px;background:#f8f9fa} form{background:#fff;padding:20px;border-radius:8px;box-shadow:0 2px 8px rgba(0,0,0,0.1);max-width:400px}
+input,button{width:100%;padding:10px;margin:8px 0;box-sizing:border-box} button{background:#007bff;color:#fff;border:none;cursor:pointer}
+#result{margin-top:20px;padding:15px;background:#fff;border-radius:8px;display:none}</style></head><body>
+<h2>✈️ Подбор перелёта с ИИ</h2><form id="form">
+<input id="budget" type="number" placeholder="Бюджет (₽)" required>
+<input id="days" type="number" placeholder="Дней" required>
+<input id="interests" type="text" placeholder="пляж,горы,шоппинг" required>
+<input id="departure" type="text" placeholder="Город вылета" required>
+<button type="submit">Найти лучший вариант</button></form>
+<div id="result"></div><script src="script.js"></script></body></html>
